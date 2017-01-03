@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.abhinav.dialogsinandroid.MainActivity">
+
+    <Button
+        android:id="@+id/btnDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialog"
+        android:onClick="showDialog"/>
+    <Button
+        android:id="@+id/btnCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom Dialog"
+        android:onClick="showCustomDialog"/>
+    <Button
+        android:id="@+id/btnAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alert Dialog"
+        android:onClick="showAlertDialog"/>
+    <Button
+        android:id="@+id/btnLong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Long Toast"
+        android:onClick="showLongToast"/>
+    <Button
+        android:id="@+id/btnShort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Short Toast"
+        android:onClick="showShortToast"/>
+    <Button
+        android:id="@+id/btnCusToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom Toast"
+        android:onClick="showCustomToast"/>
+</LinearLayout>
